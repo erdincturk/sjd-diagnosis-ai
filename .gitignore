@@ -1,3 +1,31 @@
+# --- Private Data (NEVER UPLOAD) ---
+data/
+data/*
+*/data/*
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+
+# --- Log Files ---
+temp/
+temp/*
+logs/
+
+# --- Training Artifacts & Large Files ---
+# (YOLO/PyTorch runs can be huge and cause upload errors)
+runs/
+__pycache__/
+*.pt
+*.pth
+*.onnx
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
